@@ -1,7 +1,6 @@
 package com.grow.java8.calories.json.service;
 
 import com.grow.java8.calories.dao.FoodDAO;
-import com.grow.java8.calories.jpa.entity.FoodEntity;
 import com.grow.java8.calories.json.data.FoodJson;
 import com.grow.java8.calories.service.FoodService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,12 +40,12 @@ public class FoodServiceJsonImpl implements FoodService<FoodJson> {
     }
     
     @Override
-    public FoodEntity setFood(final Long id, final String name, final LocalDateTime date, final Double calories) {
+    public FoodJson setFood(final Long id, final String name, final LocalDateTime date, final Double calories) {
         throw new UnsupportedOperationException(READ_ONLY_MESSAGE);
     }
     
     @Override
-    public FoodEntity addFood(final String name, final LocalDateTime date, final Double calories) {
+    public FoodJson addFood(final String name, final LocalDateTime date, final Double calories) {
         throw new UnsupportedOperationException(READ_ONLY_MESSAGE);
     }
 
