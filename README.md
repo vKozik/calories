@@ -4,6 +4,13 @@
 The **Calories** project demonstrates how to use Date and time in java8
 and tests using Maven. 
 
+### Deploy with heroku
+
+<a href="https://heroku.com/deploy">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+
+
 ### Installing
 
 Clone a repository from git
