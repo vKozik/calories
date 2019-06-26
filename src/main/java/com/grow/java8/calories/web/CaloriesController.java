@@ -32,6 +32,11 @@ public class CaloriesController {
     @Autowired
     private Environment environment;
 
+    @GetMapping("/")
+    public String getIndex(Model model) {
+        return "redirect:/foods" ;
+        }
+
     @GetMapping("/stat")
     public String getStat(
             @RequestParam(value = "fromDate", required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate fromDate,

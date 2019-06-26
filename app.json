@@ -1,0 +1,7 @@
+{
+  "name": "calories",
+  "description": "Calculation calories from fat",
+  "repository": "https://github.com/vKozik/calories.git",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["calories", "SpringBoot"]
+}
