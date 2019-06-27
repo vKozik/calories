@@ -16,7 +16,7 @@ and tests using Maven.
 Clone a repository from git
 
 ```
-git clone -b calories https://github.com/vKozik/java8.git calories
+git clone https://github.com/vKozik/calories
                                             
 ```
 
